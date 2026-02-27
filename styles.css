@@ -97,7 +97,11 @@ footer.footer {
   gap: 1rem;
 }
 
-.logo img {
+.logo {
+  background: transparent;
+}
+
+.logo-image {
   width: 148px;
   height: auto;
 }
