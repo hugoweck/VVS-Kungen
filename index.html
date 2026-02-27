@@ -123,35 +123,6 @@
         </div>
       </section>
 
-      <section class="section cards">
-        <div class="container card-grid">
-          <article class="service-card">
-            <div class="service-card__header">
-              <img class="service-card__logo" src="FMMattson_vatten_mindre-768x621.jpg" alt="FMMattsson" />
-              <h3>Vatten</h3>
-            </div>
-            <p>Kommunalt vatten eller egen brunn, vattenrening och driftsäkra installationer.</p>
-            <a href="#vatten">Läs mer</a>
-          </article>
-          <article class="service-card">
-            <div class="service-card__header">
-              <img class="service-card__logo" src="CTC_varme.jpg" alt="CTC" />
-              <h3>Värme</h3>
-            </div>
-            <p>Rådgivning och installation av energieffektiva värmesystem för fastighet och hem.</p>
-            <a href="#varme">Läs mer</a>
-          </article>
-          <article class="service-card">
-            <div class="service-card__header">
-              <img class="service-card__logo" src="IFO_sanitet_mindre-768x621.jpg" alt="IFö" />
-              <h3>Sanitet</h3>
-            </div>
-            <p>VVS-arbeten i badrum och kök vid nybyggnation, modernisering och renovering.</p>
-            <a href="#sanitet">Läs mer</a>
-          </article>
-        </div>
-      </section>
-
       <section id="rormokare" class="section section-anchor">
         <div class="container detail-card">
           <h2>Rörmokare</h2>
@@ -166,51 +137,60 @@
       </section>
 
       <section id="vatten" class="section section-anchor alt-bg">
-        <div class="container detail-card">
-          <h2>Vatten</h2>
-          <p>
-            Vi projekterar och installerar lösningar för både kommunalt vatten och anläggningar med egen
-            brunn.
-          </p>
-          <ul>
-            <li>Kommunalt vatten eller egen brunn</li>
-            <li>Vattenrening och filterlösningar</li>
-            <li>Pump, hydrofor och hydropress</li>
-            <li>Varmvattenberedare och varmvattenkomfort</li>
-            <li>Rådgivning, installation och service</li>
-          </ul>
+        <div class="container detail-split">
+          <div class="detail-card">
+            <h2>Vatten</h2>
+            <p>
+              Vi projekterar och installerar lösningar för både kommunalt vatten och anläggningar med egen
+              brunn.
+            </p>
+            <ul>
+              <li>Kommunalt vatten eller egen brunn</li>
+              <li>Vattenrening och filterlösningar</li>
+              <li>Pump, hydrofor och hydropress</li>
+              <li>Varmvattenberedare och varmvattenkomfort</li>
+              <li>Rådgivning, installation och service</li>
+            </ul>
+          </div>
+          <img class="detail-image" src="FMMattson_vatten_mindre-768x621.jpg" alt="FMMattsson" />
         </div>
       </section>
 
       <section id="varme" class="section section-anchor">
-        <div class="container detail-card">
-          <h2>Värme</h2>
-          <p>
-            VVS Kungen erbjuder rådgivning och besparingskalkyl inför ditt val och köp av värmesystem.
-            Vi installerar och levererar från välkända tillverkare med högsta kvalité.
-          </p>
-          <ul>
-            <li>Värmepumpar och värmepannor</li>
-            <li>Konvertering från el till vattenburen värme</li>
-            <li>Optimering av befintliga system för lägre energikostnad</li>
-            <li>Service och förebyggande underhåll</li>
-          </ul>
+        <div class="container detail-split detail-split--reverse">
+          <div class="detail-card">
+            <h2>Värme</h2>
+            <p>
+              VVS Kungen erbjuder rådgivning och besparingskalkyl inför ditt val och köp av värmesystem.
+              Vi installerar och levererar från välkända tillverkare med högsta kvalité.
+            </p>
+            <ul>
+              <li>Värmepumpar och värmepannor</li>
+              <li>Konvertering från el till vattenburen värme</li>
+              <li>Optimering av befintliga system för lägre energikostnad</li>
+              <li>Service och förebyggande underhåll</li>
+            </ul>
+          </div>
+          <img class="detail-image" src="CTC_varme.jpg" alt="CTC" />
         </div>
       </section>
 
       <section id="sanitet" class="section section-anchor alt-bg">
-        <div class="container detail-card">
-          <h2>Sanitet</h2>
-          <p>
-            VVS Kungen installerar i nybyggnation och vid modernisering/renovering av badrum och kök.
-            Våra leverantörer inom sanitet erbjuder dig allt från lyx till funktionell kvalitet.
-          </p>
-          <ul>
-            <li>Badrum och kök i nyproduktion och renovering</li>
-            <li>Montering av blandare, wc, dusch och inredning</li>
-            <li>Säker vatteninstallation enligt branschregler</li>
-            <li>Samordning med övriga entreprenörer i projektet</li>
-          </ul>
+        <div class="container detail-split">
+          <div class="detail-card">
+            <h2>Sanitet</h2>
+            <p>
+              VVS Kungen installerar i nybyggnation och vid modernisering/renovering av badrum och kök.
+              Våra leverantörer inom sanitet erbjuder dig allt från lyx till funktionell kvalitet.
+            </p>
+            <ul>
+              <li>Badrum och kök i nyproduktion och renovering</li>
+              <li>Montering av blandare, wc, dusch och inredning</li>
+              <li>Säker vatteninstallation enligt branschregler</li>
+              <li>Samordning med övriga entreprenörer i projektet</li>
+            </ul>
+          </div>
+          <img class="detail-image" src="IFO_sanitet_mindre-768x621.jpg" alt="IFö" />
         </div>
       </section>
 
@@ -271,11 +251,6 @@
 
               <label for="message">Ditt meddelande *</label>
               <textarea id="message" name="message" rows="5" required></textarea>
-
-              <div class="recaptcha-placeholder" aria-label="reCAPTCHA placeholder">
-                reCAPTCHA placeholder
-                <!-- Koppla in site key/secret för reCAPTCHA här när backend/integration finns. -->
-              </div>
 
               <button type="submit" class="btn btn-primary">Skicka</button>
               <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
