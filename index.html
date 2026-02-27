@@ -3,11 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Badrumsrenovering Stockholm | Badrumslyftet</title>
+    <title>Rörmokare Nykvarn | VVS Kungen AB – VVS installatör, vatten och avlopp, värmepump</title>
     <meta
       name="description"
-      content="Vi renoverar badrum i Stockholm med snabb offert och garanti. Få gratis offert från Badrumslyftet."
+      content="VVS Kungen AB är din rörmokare i Nykvarn och VVS installatör för vatten och avlopp, värmepump, vattenburen värme, badrum och kök i Nykvarn, Södertälje, Gnesta, Strängnäs, Mariefred, Enköping och Flen."
     />
+    <link rel="canonical" href="https://example.com/" />
+    <meta property="og:title" content="VVS Kungen AB | Rörmokare och VVS i Nykvarn" />
+    <meta
+      property="og:description"
+      content="Rörmokare i Nykvarn för vatten och avlopp, värme, sanitet, badrum och kök. VVS Kungen AB hjälper privatpersoner, BRF, företag och industri i Stockholm-Mälardalen."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="sv_SE" />
+    <meta property="og:image" content="https://example.com/VVS-Kungen-AB-logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="VVS Kungen AB | Rörmokare i Nykvarn" />
+    <meta
+      name="twitter:description"
+      content="VVS installatör i Nykvarn för vatten, värme och sanitet. Kontakta VVS Kungen AB för rådgivning, installation och service."
+    />
+    <meta name="twitter:image" content="https://example.com/VVS-Kungen-AB-logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,176 +31,226 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "VVS Kungen AB",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Allévägen 11",
+          "postalCode": "155 32",
+          "addressLocality": "Nykvarn",
+          "addressCountry": "Sweden"
+        },
+        "areaServed": [
+          "Stockholm-Mälardalen",
+          "Nykvarn",
+          "Södertälje",
+          "Gnesta",
+          "Strängnäs",
+          "Mariefred",
+          "Enköping",
+          "Flen"
+        ],
+        "telephone": ["070-586 64 30", "08-554 900 06"],
+        "email": "vvskungen@nykvarn.com"
+      }
+    </script>
   </head>
   <body>
-    <div class="loader" id="loader" aria-hidden="true">
-      <div class="loader__ring"></div>
-      <span>Laddar Badrumslyftet</span>
-    </div>
-
     <header class="header" id="header">
       <div class="container nav-wrap">
-        <a href="#start" class="logo">Badrumslyftet</a>
+        <a href="#hem" class="logo" aria-label="VVS Kungen AB hem">
+          <img src="VVS-Kungen-AB-logo.png" alt="VVS Kungen AB logga" />
+        </a>
         <button class="menu-toggle" id="menuToggle" aria-label="Öppna meny" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
-        <nav class="nav" id="mainNav">
-          <a href="#om-oss">Om oss</a>
-          <a href="#projekt">Projekt</a>
-          <a href="#process">Process</a>
-          <a href="#kontakt">Kontakt</a>
+        <nav class="nav" id="mainNav" aria-label="Huvudnavigation">
+          <a href="#hem">HEM</a>
+          <a href="#rormokare">RÖRMOKARE</a>
+          <a href="#vatten">VATTEN</a>
+          <a href="#varme">VÄRME</a>
+          <a href="#sanitet">SANITET</a>
+          <a href="#kontakt">KONTAKT</a>
         </nav>
+        <a class="header-phone" href="tel:0705866430">070-586 64 30</a>
       </div>
     </header>
 
-    <main>
-      <section id="start" class="hero">
-        <div class="hero__bg" aria-hidden="true"></div>
+    <main id="hem">
+      <section class="hero section-offset">
         <div class="hero__overlay" aria-hidden="true"></div>
-        <div class="container hero__content fade-up">
-          <p class="eyebrow">Badrumsrenovering i Stockholm</p>
-          <h1>Vi lyfter ditt badrum till nästa nivå</h1>
-          <p class="subtitle">Totalrenoveringar med kvalitet, trygghet och snabb offert</p>
-          <div class="hero__actions">
-            <a class="btn btn-primary ripple" href="#kontakt">Få gratis offert</a>
-            <a class="btn btn-secondary ripple" href="#projekt">Se våra projekt</a>
-          </div>
+        <div class="container hero__content">
+          <p class="eyebrow">VVS Kungen AB</p>
+          <h1>Rörmokare i Nykvarn – VVS Kungen i Nykvarn, rörmokare och VVS installatör.</h1>
+          <p class="subtitle">
+            Vi hjälper privatpersoner, bostadsrättsföreningar, företag, skolor och industrier med
+            rådgivning, installation och service inom vatten, värme och sanitet i hela Stockholm-Mälardalen.
+          </p>
+          <a class="btn btn-primary" href="#kontakt">Kontakta oss</a>
         </div>
       </section>
 
-      <section class="trust section">
-        <div class="container trust__grid">
-          <article class="trust-card reveal slide-up delay-1">
-            <div class="icon">✓</div>
-            <h3>Snabb offert</h3>
-            <p>Du får en tydlig offert och full kontroll över hela renoveringen.</p>
+      <section id="om-vvs-kungen" class="section">
+        <div class="container narrow">
+          <h2>Om VVS Kungen</h2>
+          <p>
+            VVS Kungens uppdragsgivare inom VVS och rörmokeri är privatpersoner med egna hus,
+            bostadsrättsföreningar, företag, skolor och industrier.
+          </p>
+          <p>
+            Vi installerar i nybyggen och i samband med ombyggnad och modernisering. VVS Kungen utför
+            rörinstallationer och service inom fastighets- och industrisektorn.
+          </p>
+          <p>
+            Vi installerar värmepumpar och värmepannor och utför konvertering från el till vattenburen
+            värme.
+          </p>
+          <p>
+            VVS Kungen står till tjänst med rådgivning till dig med vatten från egen brunn och kan vid
+            behov installera reningsverk och filter.
+          </p>
+          <p>
+            Vi utför uppdrag inom region Stockholm-Mälardalen, företrädesvis Nykvarn, Strängnäs,
+            Mariefred, Enköping, Södertälje, Gnesta och Flen.
+          </p>
+        </div>
+      </section>
+
+      <section class="section cards">
+        <div class="container card-grid">
+          <article class="service-card">
+            <h3>Vatten &amp; avlopp</h3>
+            <p>Kommunalt vatten eller egen brunn, vattenrening och driftsäkra installationer.</p>
+            <a href="#vatten">Läs mer</a>
           </article>
-          <article class="trust-card reveal slide-up delay-2">
-            <div class="icon">✓</div>
-            <h3>Certifierade hantverkare</h3>
-            <p>Vårt team arbetar enligt branschregler för ett tryggt och hållbart resultat.</p>
+          <article class="service-card">
+            <h3>Värme</h3>
+            <p>Rådgivning och installation av energieffektiva värmesystem för fastighet och hem.</p>
+            <a href="#varme">Läs mer</a>
           </article>
-          <article class="trust-card reveal slide-up delay-3">
-            <div class="icon">✓</div>
-            <h3>Garanti</h3>
-            <p>Vi lämnar garanti på utfört arbete så att du kan känna dig helt säker.</p>
+          <article class="service-card">
+            <h3>Sanitet</h3>
+            <p>VVS-arbeten i badrum och kök vid nybyggnation, modernisering och renovering.</p>
+            <a href="#sanitet">Läs mer</a>
           </article>
         </div>
       </section>
 
-      <section id="projekt" class="section projects">
+      <section id="rormokare" class="section section-anchor">
+        <div class="container narrow">
+          <h2>Rörmokare</h2>
+          <p>
+            VVS Kungen - Rörmokare: Vi arbetar med de flesta typer av uppdrag. Allt från den läckande
+            kranen, till rörarbeten vid nybyggnation och renoveringar. Det kan handla om omdragningar,
+            rörinstallationer vid konvertering från el till vattenburen värme, värmepumpsinstallationer,
+            panninstallationer, golvvärme och rördragningar i kök och badrum. VVS Kungen hjälper dig med
+            rådgivning, installation och service.
+          </p>
+        </div>
+      </section>
+
+      <section id="vatten" class="section section-anchor alt-bg">
+        <div class="container narrow">
+          <h2>Vatten</h2>
+          <p>
+            Vatten och avlopp. Kommunalt vatten eller egen brunn. Vattenrening, pump, hydrofon,
+            varmvattenberedare. VVS Kungen hjälper dig med rådgivning, installation och service.
+          </p>
+          <ul>
+            <li>Kommunalt vatten eller egen brunn</li>
+            <li>Vattenrening</li>
+            <li>Pump</li>
+            <li>Hydrofon</li>
+            <li>Varmvattenberedare</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="varme" class="section section-anchor">
+        <div class="container narrow">
+          <h2>Värme</h2>
+          <p>
+            VVS Kungen erbjuder rådgivning och besparingskalkyl inför ditt val och köp av värmesystem.
+            Vi installerar och levererar från välkända tillverkare med högsta kvalité.
+          </p>
+        </div>
+      </section>
+
+      <section id="sanitet" class="section section-anchor alt-bg">
+        <div class="container narrow">
+          <h2>Sanitet</h2>
+          <p>
+            VVS Kungen installerar i nybyggnation och vid modernisering/renovering av badrum och kök.
+            Våra leverantörer inom sanitet erbjuder dig allt från lyx till funktionell kvalitet.
+          </p>
+        </div>
+      </section>
+
+      <section class="section partners">
         <div class="container">
-          <div class="section-head reveal fade-up">
-            <p class="eyebrow">Referenser</p>
-            <h2>Utvalda badrumsprojekt</h2>
-          </div>
-          <div class="project-grid">
-            <a href="#" class="project-card reveal scale-in" data-project="solna">
-              <img src="badrum1.jpg" alt="Badrum i Solna" />
-              <span class="project-overlay"><strong>Badrum i Solna</strong><em>Se projekt →</em></span>
-            </a>
-            <a href="#" class="project-card reveal scale-in" data-project="nacka">
-              <img src="badrum2.jpg" alt="Badrum i Nacka" />
-              <span class="project-overlay"><strong>Badrum i Nacka</strong><em>Se projekt →</em></span>
-            </a>
-            <a href="#" class="project-card reveal scale-in" data-project="taby">
-              <img src="badrum3.jpg" alt="Badrum i Täby" />
-              <span class="project-overlay"><strong>Badrum i Täby</strong><em>Se projekt →</em></span>
-            </a>
-            <a href="#" class="project-card reveal scale-in" data-project="bromma">
-              <img src="badrum4.jpg" alt="Badrum i Bromma" />
-              <span class="project-overlay"><strong>Badrum i Bromma</strong><em>Se projekt →</em></span>
-            </a>
-            <a href="#" class="project-card reveal scale-in" data-project="sundbyberg">
-              <img src="badrum6.jpg" alt="Badrum i Sundbyberg" />
-              <span class="project-overlay"><strong>Badrum i Sundbyberg</strong><em>Se projekt →</em></span>
-            </a>
-            <a href="#" class="project-card reveal scale-in" data-project="lidingo">
-              <img src="badrum7.jpg" alt="Badrum i Lidingö" />
-              <span class="project-overlay"><strong>Badrum i Lidingö</strong><em>Se projekt →</em></span>
-            </a>
+          <h2>Partners och leverantörer</h2>
+          <p>För produktinformation, besök våra samverkanspartners och leverantörer.</p>
+          <div class="partner-grid">
+            <div class="partner-item"><img src="FMMattson_vatten_mindre-768x621.jpg" alt="FMMattsson logotyp" /></div>
+            <div class="partner-item badge">Nibe</div>
+            <div class="partner-item badge">Aqua-Expert</div>
+            <div class="partner-item"><img src="CTC_varme.jpg" alt="CTC logotyp" /></div>
+            <div class="partner-item"><img src="IFO_sanitet_mindre-768x621.jpg" alt="IFö logotyp" /></div>
+            <div class="partner-item badge">LK</div>
+            <div class="partner-item badge">Purus</div>
+            <div class="partner-item badge">Danfoss</div>
+            <div class="partner-item badge">Grundfos</div>
+            <div class="partner-item badge">Uponor</div>
           </div>
         </div>
       </section>
 
-      <div class="project-modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true">
-        <div class="project-modal__backdrop" data-close-modal="true"></div>
-        <article class="project-modal__card">
-          <button type="button" class="project-modal__close" id="projectModalClose" aria-label="Stäng popup">×</button>
-          <p class="eyebrow">Projektinfo</p>
-          <h3 id="projectModalTitle">Projekt</h3>
-          <p id="projectModalText"></p>
-        </article>
-      </div>
-
-      <section id="process" class="section process">
+      <section id="kontakt" class="section section-anchor contact">
         <div class="container">
-          <div class="section-head reveal fade-up">
-            <p class="eyebrow">Vår process</p>
-            <h2>En trygg väg till nytt badrum</h2>
+          <h2>Kontakt</h2>
+          <div class="contact-cards">
+            <article class="contact-card">
+              <h3>Postadress</h3>
+              <p>VVS Kungen AB<br />Allévägen 11<br />155 32 Nykvarn</p>
+              <p><a href="tel:0855490006">08-554 900 06</a></p>
+            </article>
+            <article class="contact-card">
+              <h3>Leveranser &amp; verkstad</h3>
+              <p>VVS Kungen AB<br />Ströpstavägen 20<br />155 32 Nykvarn</p>
+              <p><a href="tel:0855490006">08-554 900 06</a></p>
+            </article>
+            <article class="contact-card">
+              <h3>E-post &amp; mobil</h3>
+              <p><a href="mailto:vvskungen@nykvarn.com">vvskungen@nykvarn.com</a></p>
+              <p><a href="mailto:kung@nykvarn.com">kung@nykvarn.com</a></p>
+              <p>Lars: <a href="tel:0705866430">070-586 64 30</a></p>
+              <p>Emil: <a href="tel:0702338487">070-233 84 87</a></p>
+            </article>
           </div>
-          <div class="timeline">
-            <div class="step reveal slide-up">
-              <span>1</span>
-              <h4>Kontakt</h4>
-            </div>
-            <div class="step reveal slide-up">
-              <span>2</span>
-              <h4>Offert</h4>
-            </div>
-            <div class="step reveal slide-up">
-              <span>3</span>
-              <h4>Renovering</h4>
-            </div>
-            <div class="step reveal slide-up">
-              <span>4</span>
-              <h4>Klart</h4>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section id="om-oss" class="section about">
-        <div class="container about__grid">
-          <div class="about__text reveal slide-left">
-            <p class="eyebrow">Om Badrumslyftet</p>
-            <h2>Vi bygger badrum med precision och premiumkänsla</h2>
-            <p>
-              Badrumslyftet hjälper villaägare och bostadsrättsinnehavare i hela Stockholm att skapa
-              badrum som håller i längden. Vi kombinerar design, certifierat hantverk och tydlig
-              projektledning för en smidig helhetsleverans.
-            </p>
-            <p>
-              Med snabb offert, tydlig tidsplan och regelbunden uppföljning vet du alltid vad som händer
-              i projektet.
-            </p>
-          </div>
-          <div class="about__image reveal slide-right">
-            <img src="badrum6.jpg" alt="Renoverat premiumbadrum" />
-          </div>
-        </div>
-      </section>
+          <form id="contactForm" class="contact-form" novalidate>
+            <label for="name">Ditt namn *</label>
+            <input id="name" name="name" type="text" required />
 
-      <section class="section cta">
-        <div class="container cta__inner reveal fade-up">
-          <h2>Vill du renovera badrummet?</h2>
-          <a href="#kontakt" class="btn btn-primary ripple">Få offert</a>
-        </div>
-      </section>
+            <label for="phone">Ditt telefonnummer</label>
+            <input id="phone" name="phone" type="tel" />
 
-      <section id="kontakt" class="section contact">
-        <div class="container">
-          <div class="section-head reveal fade-up">
-            <p class="eyebrow">Offert</p>
-            <h2>Berätta om ditt projekt</h2>
-          </div>
-          <form class="contact-form reveal slide-up">
-            <label>Namn<input type="text" name="name" placeholder="Ditt namn" required /></label>
-            <label>Telefon<input type="tel" name="phone" placeholder="070-123 45 67" required /></label>
-            <label>Email<input type="email" name="email" placeholder="namn@email.se" required /></label>
-            <label>Postnummer<input type="text" name="postal" placeholder="123 45" required /></label>
-            <label class="full">Meddelande<textarea name="message" rows="5" placeholder="Beskriv ditt badrum och önskemål"></textarea></label>
-            <button type="submit" class="btn btn-primary ripple full">Skicka offertförfrågan</button>
+            <label for="email">Din e-postadress *</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">Ditt meddelande *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <div class="recaptcha-placeholder" aria-label="reCAPTCHA placeholder">
+              reCAPTCHA placeholder
+              <!-- Koppla in site key/secret för reCAPTCHA här när backend/integration finns. -->
+            </div>
+
+            <button type="submit" class="btn btn-primary">Skicka</button>
+            <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
           </form>
         </div>
       </section>
@@ -192,20 +258,16 @@
 
     <footer class="footer">
       <div class="container footer__grid">
-        <div>
-          <h3>Badrumslyftet</h3>
-          <p>Telefon: <a href="tel:0738077937">073 807 79 37</a></p>
-          <p>Email: kontakt@badrumslyftet.se</p>
-          <p>Ort: Stockholm</p>
-        </div>
-        <nav class="footer-nav">
-          <a href="#start">Start</a>
-          <a href="#om-oss">Om oss</a>
-          <a href="#projekt">Projekt</a>
-          <a href="#kontakt">Kontakt</a>
+        <p>© VVS Kungen AB</p>
+        <nav class="footer-nav" aria-label="Sidfotnavigation">
+          <a href="#hem">HEM</a>
+          <a href="#rormokare">RÖRMOKARE</a>
+          <a href="#vatten">VATTEN</a>
+          <a href="#varme">VÄRME</a>
+          <a href="#sanitet">SANITET</a>
+          <a href="#kontakt">KONTAKT</a>
         </nav>
       </div>
-      <p class="copyright">© Badrumslyftet</p>
     </footer>
 
     <script src="script.js"></script>
